@@ -1,0 +1,46 @@
+Conceitos de Orientação à Objetos
+
+* Objetos: são um tipo especial de registro contendo procedures e functions como parte deles.
+Esses procedures e functions são mantidos como ponteiros para métodos associados com o tipo de objetos.
+
+* Classes: A classe é definida quase da mesma forma que um objeto, mas existe diferença no caminho que eles são criados. A Classe é alocada no heap enquanto o obejto é alocado na Stack. É um ponteiro para o objeto, não um objeto em si.
+
+* Instanciação de uma classe: significa criar uma variável dessa classe modelo. Desde uma classe seja apenas um ponteiro, quando uma variável de uma classe modelo é declarada, existe
+memória alocada apenas para um ponteiro, não para todo objeto.
+Apenas quando é instanciada utilizando um dos construtores, a memória é alocada para o objeto. Instâncias de uma classe são quase como "objetos".
+
+* Variáveis membros: são variáveis definidas dentro de uma classe ou objeto.
+
+* Funções membros: são funções definidas dentro de uma classe ou objeto.
+
+* Visibilidade dos membros: os membros de um objeto ou classe são també chamados de campos. Estes campos possuem diferentes acessibilidades. 
+	Os objetos possuem três níveis de visibilidade: public, privated e protected.
+	As classes possuem cinco níveis de visibilidade: public, privated, strictly private ,protected and publish.
+	
+* Herança: Quando a classe é definida por herança existem funcionalidades da classe pai, então é dito que ela herdou essas funcionalidades.
+
+* Classe pai (base class ou super class): a classe base.
+
+* Classe filho: a classe que herda da classe pai.
+
+* Poliformismo: é um conceito na orientação a objetos quando uma mesma função é utilizada para propósitos diferentes.
+As classes em Pascal implementam poliformismo, mas os objetos não.
+
+* Sobrecarga: é um tipo de poliformismo que alguns ou todos operadores tem diferentes implementações dependendo dos seus tipos e de seus argumentos.
+
+* Abstração de dados: qualquer representação de dados que a implementação dos detalhes são ocuta.
+
+* Encapsulamento: refere-se ao conceito onde encapsulamos todos os dados e funções membros de outra forma no objeto
+
+* Construtor: refere-se a um tipo especial de função que será chamada automaticamente  sempre que a formação de objeto de uma classe ou um objeto.
+
+* Destrutor: refere-se a um tipo especial de função que será chamada automaticamente
+sempre que um objeto ou classe é excluído ou sai do escopo
+
+	Visibilidade nos objetos:
+	Public: Os membros podem ser usados ​​por outras unidades fora da unidade de programa
+	
+	Private: Os membros são acessíveis apenas na unidade atual.
+	
+	Protected: Os membros estão disponíveis apenas para objetos descendentes do pai
+objeto.
