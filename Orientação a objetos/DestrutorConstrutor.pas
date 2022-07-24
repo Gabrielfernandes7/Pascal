@@ -70,4 +70,4 @@ begin
 	pr1^.draw;
 	dispose(pr1);
 	r1.done;
-end; 
+end.
